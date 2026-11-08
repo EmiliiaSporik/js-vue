@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Налаштування профілю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="profile-card" id="card">
+    <p class="tag">Налаштування профілю</p>
+    <h1 id="welcome">Вітаємо, Гостю!</h1>
+
+    <label for="userName">Ваше ім'я</label>
+    <input id="userName" type="text" placeholder="Введіть ім'я">
+
+    <button id="saveBtn">Підтвердити</button>
+    <p id="status">Зміни не збережено</p>
+
+    <label for="themeSelect">Оберіть тему</label>
+    <select id="themeSelect">
+        <option value="light">Світла тема</option>
+        <option value="dark">Темна тема</option>
+    </select>
+
+    <button id="detailBtn" class="secondary">Показати додаткову інформацію</button>
+    <div class="hidden" id="details">
+        <p>11 ІТ-02 найкращі 💕 (01 теж норм 😌)</p>
+    </div>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
